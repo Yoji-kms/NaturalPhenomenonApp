@@ -10,9 +10,19 @@
 		F939A2512C467495002168B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2502C467495002168B0 /* AppDelegate.swift */; };
 		F939A2532C467495002168B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2522C467495002168B0 /* SceneDelegate.swift */; };
 		F939A2552C467495002168B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2542C467495002168B0 /* ViewController.swift */; };
-		F939A2582C467495002168B0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F939A2572C467495002168B0 /* Base */; };
 		F939A25A2C46749C002168B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F939A2592C46749C002168B0 /* Assets.xcassets */; };
-		F939A25D2C46749C002168B0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F939A25C2C46749C002168B0 /* Base */; };
+		F939A2662C490EDC002168B0 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2652C490EDC002168B0 /* SunView.swift */; };
+		F939A2682C492A53002168B0 /* SunWithCloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2672C492A53002168B0 /* SunWithCloudsView.swift */; };
+		F939A26A2C494AB6002168B0 /* CloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2692C494AB6002168B0 /* CloudsView.swift */; };
+		F939A26C2C4A586A002168B0 /* CloudsWithPrecipitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A26B2C4A586A002168B0 /* CloudsWithPrecipitationView.swift */; };
+		F939A26E2C4A6007002168B0 /* CGRectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A26D2C4A6007002168B0 /* CGRectUtils.swift */; };
+		F939A2712C4A8DB6002168B0 /* PrecipitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2702C4A8DB6002168B0 /* PrecipitationView.swift */; };
+		F939A2752C4A9592002168B0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2742C4A9592002168B0 /* Enums.swift */; };
+		F939A2772C4AA156002168B0 /* ThunderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2762C4AA156002168B0 /* ThunderView.swift */; };
+		F939A2792C4AA53F002168B0 /* LightningsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2782C4AA53F002168B0 /* LightningsView.swift */; };
+		F939A27B2C4B9D44002168B0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */; };
+		F939A27D2C4BA4F4002168B0 /* RainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A27C2C4BA4F4002168B0 /* RainView.swift */; };
+		F939A27F2C4BA7BD002168B0 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A27E2C4BA7BD002168B0 /* SnowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +30,20 @@
 		F939A2502C467495002168B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F939A2522C467495002168B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F939A2542C467495002168B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F939A2572C467495002168B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F939A2592C46749C002168B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F939A25C2C46749C002168B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F939A25E2C46749C002168B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F939A2652C490EDC002168B0 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		F939A2672C492A53002168B0 /* SunWithCloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWithCloudsView.swift; sourceTree = "<group>"; };
+		F939A2692C494AB6002168B0 /* CloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsView.swift; sourceTree = "<group>"; };
+		F939A26B2C4A586A002168B0 /* CloudsWithPrecipitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsWithPrecipitationView.swift; sourceTree = "<group>"; };
+		F939A26D2C4A6007002168B0 /* CGRectUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectUtils.swift; sourceTree = "<group>"; };
+		F939A2702C4A8DB6002168B0 /* PrecipitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecipitationView.swift; sourceTree = "<group>"; };
+		F939A2742C4A9592002168B0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		F939A2762C4AA156002168B0 /* ThunderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderView.swift; sourceTree = "<group>"; };
+		F939A2782C4AA53F002168B0 /* LightningsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningsView.swift; sourceTree = "<group>"; };
+		F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F939A27C2C4BA4F4002168B0 /* RainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainView.swift; sourceTree = "<group>"; };
+		F939A27E2C4BA7BD002168B0 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,41 @@
 		F939A24F2C467495002168B0 /* NaturalPhenomenonApp */ = {
 			isa = PBXGroup;
 			children = (
+				F939A26F2C4A600D002168B0 /* Utils */,
+				F939A2642C490EB7002168B0 /* Views */,
 				F939A2502C467495002168B0 /* AppDelegate.swift */,
 				F939A2522C467495002168B0 /* SceneDelegate.swift */,
 				F939A2542C467495002168B0 /* ViewController.swift */,
-				F939A2562C467495002168B0 /* Main.storyboard */,
+				F939A2742C4A9592002168B0 /* Enums.swift */,
 				F939A2592C46749C002168B0 /* Assets.xcassets */,
-				F939A25B2C46749C002168B0 /* LaunchScreen.storyboard */,
 				F939A25E2C46749C002168B0 /* Info.plist */,
+				F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */,
 			);
 			path = NaturalPhenomenonApp;
+			sourceTree = "<group>";
+		};
+		F939A2642C490EB7002168B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F939A2652C490EDC002168B0 /* SunView.swift */,
+				F939A2672C492A53002168B0 /* SunWithCloudsView.swift */,
+				F939A2692C494AB6002168B0 /* CloudsView.swift */,
+				F939A26B2C4A586A002168B0 /* CloudsWithPrecipitationView.swift */,
+				F939A2702C4A8DB6002168B0 /* PrecipitationView.swift */,
+				F939A2762C4AA156002168B0 /* ThunderView.swift */,
+				F939A2782C4AA53F002168B0 /* LightningsView.swift */,
+				F939A27C2C4BA4F4002168B0 /* RainView.swift */,
+				F939A27E2C4BA7BD002168B0 /* SnowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F939A26F2C4A600D002168B0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F939A26D2C4A6007002168B0 /* CGRectUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +155,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = F939A2442C467495002168B0;
 			productRefGroup = F939A24E2C467495002168B0 /* Products */;
@@ -125,9 +172,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F939A27B2C4B9D44002168B0 /* Localizable.xcstrings in Resources */,
 				F939A25A2C46749C002168B0 /* Assets.xcassets in Resources */,
-				F939A25D2C46749C002168B0 /* Base in Resources */,
-				F939A2582C467495002168B0 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +184,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F939A27D2C4BA4F4002168B0 /* RainView.swift in Sources */,
 				F939A2552C467495002168B0 /* ViewController.swift in Sources */,
+				F939A2792C4AA53F002168B0 /* LightningsView.swift in Sources */,
+				F939A2662C490EDC002168B0 /* SunView.swift in Sources */,
+				F939A2752C4A9592002168B0 /* Enums.swift in Sources */,
+				F939A26A2C494AB6002168B0 /* CloudsView.swift in Sources */,
+				F939A2682C492A53002168B0 /* SunWithCloudsView.swift in Sources */,
+				F939A2712C4A8DB6002168B0 /* PrecipitationView.swift in Sources */,
 				F939A2512C467495002168B0 /* AppDelegate.swift in Sources */,
+				F939A27F2C4BA7BD002168B0 /* SnowView.swift in Sources */,
+				F939A26E2C4A6007002168B0 /* CGRectUtils.swift in Sources */,
+				F939A2772C4AA156002168B0 /* ThunderView.swift in Sources */,
 				F939A2532C467495002168B0 /* SceneDelegate.swift in Sources */,
+				F939A26C2C4A586A002168B0 /* CloudsWithPrecipitationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F939A2562C467495002168B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F939A2572C467495002168B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F939A25B2C46749C002168B0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F939A25C2C46749C002168B0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F939A25F2C46749C002168B0 /* Debug */ = {
@@ -296,8 +334,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NaturalPhenomenonApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,8 +360,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NaturalPhenomenonApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
