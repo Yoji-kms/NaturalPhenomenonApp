@@ -21,7 +21,7 @@ final class SunView: UIView {
 //    MARK: Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .clear
+        self.backgroundColor = .sunny
         self.setupViews()
     }
     

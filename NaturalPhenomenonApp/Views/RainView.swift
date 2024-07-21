@@ -26,7 +26,7 @@ final class RainView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .clear
+        self.backgroundColor = .rain
         self.setupViews()
     }
     

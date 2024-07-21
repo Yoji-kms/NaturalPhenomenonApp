@@ -11,7 +11,7 @@ final class SunWithCloudsView: UIView {
 //    MARK: Views
     private lazy var sunView: SunView = {
         let sunView = SunView()
-        
+        sunView.backgroundColor = .clear
         sunView.translatesAutoresizingMaskIntoConstraints = false
         return sunView
     }()
@@ -26,7 +26,7 @@ final class SunWithCloudsView: UIView {
 //    MARK: Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .clear
+        self.backgroundColor = .cloudy
         self.setupViews()
     }
     

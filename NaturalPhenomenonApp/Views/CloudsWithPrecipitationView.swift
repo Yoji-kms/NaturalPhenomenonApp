@@ -43,11 +43,11 @@ final class CloudsWithPrecipitationView: UIView {
     
 //    MARK: Setups
     private func setupViews() {
-        self.setupRaindropViews()
+        self.setupPrecipitationViews()
         self.setupCloudsViews()
     }
     
-    private func setupRaindropViews() {
+    private func setupPrecipitationViews() {
         var precipitationImage = UIImage()
         switch self.presipitationsType {
         case .rain:
@@ -120,7 +120,7 @@ final class CloudsWithPrecipitationView: UIView {
             cloudRect(x: viewMaxX - cloudWidth, y: secondRowY)
         ]
         
-        for index in 0..<5 {
+        for index in 0..<self.clouds.count {
             self.addSubview(self.clouds[index])
             self.clouds[index].frame = cloudsStartRects[index]
             

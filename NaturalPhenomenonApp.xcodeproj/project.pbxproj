@@ -17,12 +17,17 @@
 		F939A26C2C4A586A002168B0 /* CloudsWithPrecipitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A26B2C4A586A002168B0 /* CloudsWithPrecipitationView.swift */; };
 		F939A26E2C4A6007002168B0 /* CGRectUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A26D2C4A6007002168B0 /* CGRectUtils.swift */; };
 		F939A2712C4A8DB6002168B0 /* PrecipitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2702C4A8DB6002168B0 /* PrecipitationView.swift */; };
-		F939A2752C4A9592002168B0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2742C4A9592002168B0 /* Enums.swift */; };
-		F939A2772C4AA156002168B0 /* ThunderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2762C4AA156002168B0 /* ThunderView.swift */; };
+		F939A2752C4A9592002168B0 /* Clouds.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2742C4A9592002168B0 /* Clouds.swift */; };
+		F939A2772C4AA156002168B0 /* StormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2762C4AA156002168B0 /* StormView.swift */; };
 		F939A2792C4AA53F002168B0 /* LightningsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2782C4AA53F002168B0 /* LightningsView.swift */; };
 		F939A27B2C4B9D44002168B0 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */; };
 		F939A27D2C4BA4F4002168B0 /* RainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A27C2C4BA4F4002168B0 /* RainView.swift */; };
 		F939A27F2C4BA7BD002168B0 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A27E2C4BA7BD002168B0 /* SnowView.swift */; };
+		F939A2812C4BB5F9002168B0 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2802C4BB5F9002168B0 /* WeatherCollectionViewCell.swift */; };
+		F939A2842C4BCB01002168B0 /* Precipitations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2832C4BCB01002168B0 /* Precipitations.swift */; };
+		F939A2862C4BCB15002168B0 /* WeatherTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2852C4BCB15002168B0 /* WeatherTypes.swift */; };
+		F939A2882C4BD2E8002168B0 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2872C4BD2E8002168B0 /* BackgroundView.swift */; };
+		F939A28A2C4D7D0F002168B0 /* FogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2892C4D7D0F002168B0 /* FogView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,12 +43,17 @@
 		F939A26B2C4A586A002168B0 /* CloudsWithPrecipitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsWithPrecipitationView.swift; sourceTree = "<group>"; };
 		F939A26D2C4A6007002168B0 /* CGRectUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectUtils.swift; sourceTree = "<group>"; };
 		F939A2702C4A8DB6002168B0 /* PrecipitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrecipitationView.swift; sourceTree = "<group>"; };
-		F939A2742C4A9592002168B0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		F939A2762C4AA156002168B0 /* ThunderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderView.swift; sourceTree = "<group>"; };
+		F939A2742C4A9592002168B0 /* Clouds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clouds.swift; sourceTree = "<group>"; };
+		F939A2762C4AA156002168B0 /* StormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormView.swift; sourceTree = "<group>"; };
 		F939A2782C4AA53F002168B0 /* LightningsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightningsView.swift; sourceTree = "<group>"; };
 		F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		F939A27C2C4BA4F4002168B0 /* RainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainView.swift; sourceTree = "<group>"; };
 		F939A27E2C4BA7BD002168B0 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
+		F939A2802C4BB5F9002168B0 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		F939A2832C4BCB01002168B0 /* Precipitations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Precipitations.swift; sourceTree = "<group>"; };
+		F939A2852C4BCB15002168B0 /* WeatherTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTypes.swift; sourceTree = "<group>"; };
+		F939A2872C4BD2E8002168B0 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		F939A2892C4D7D0F002168B0 /* FogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +86,12 @@
 		F939A24F2C467495002168B0 /* NaturalPhenomenonApp */ = {
 			isa = PBXGroup;
 			children = (
+				F939A2822C4BCADE002168B0 /* Enums */,
 				F939A26F2C4A600D002168B0 /* Utils */,
 				F939A2642C490EB7002168B0 /* Views */,
 				F939A2502C467495002168B0 /* AppDelegate.swift */,
 				F939A2522C467495002168B0 /* SceneDelegate.swift */,
 				F939A2542C467495002168B0 /* ViewController.swift */,
-				F939A2742C4A9592002168B0 /* Enums.swift */,
 				F939A2592C46749C002168B0 /* Assets.xcassets */,
 				F939A25E2C46749C002168B0 /* Info.plist */,
 				F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */,
@@ -97,10 +107,13 @@
 				F939A2692C494AB6002168B0 /* CloudsView.swift */,
 				F939A26B2C4A586A002168B0 /* CloudsWithPrecipitationView.swift */,
 				F939A2702C4A8DB6002168B0 /* PrecipitationView.swift */,
-				F939A2762C4AA156002168B0 /* ThunderView.swift */,
+				F939A2762C4AA156002168B0 /* StormView.swift */,
 				F939A2782C4AA53F002168B0 /* LightningsView.swift */,
 				F939A27C2C4BA4F4002168B0 /* RainView.swift */,
 				F939A27E2C4BA7BD002168B0 /* SnowView.swift */,
+				F939A2802C4BB5F9002168B0 /* WeatherCollectionViewCell.swift */,
+				F939A2872C4BD2E8002168B0 /* BackgroundView.swift */,
+				F939A2892C4D7D0F002168B0 /* FogView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +124,16 @@
 				F939A26D2C4A6007002168B0 /* CGRectUtils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		F939A2822C4BCADE002168B0 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				F939A2742C4A9592002168B0 /* Clouds.swift */,
+				F939A2832C4BCB01002168B0 /* Precipitations.swift */,
+				F939A2852C4BCB15002168B0 /* WeatherTypes.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,18 +207,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F939A2882C4BD2E8002168B0 /* BackgroundView.swift in Sources */,
+				F939A2862C4BCB15002168B0 /* WeatherTypes.swift in Sources */,
 				F939A27D2C4BA4F4002168B0 /* RainView.swift in Sources */,
 				F939A2552C467495002168B0 /* ViewController.swift in Sources */,
 				F939A2792C4AA53F002168B0 /* LightningsView.swift in Sources */,
+				F939A28A2C4D7D0F002168B0 /* FogView.swift in Sources */,
+				F939A2812C4BB5F9002168B0 /* WeatherCollectionViewCell.swift in Sources */,
 				F939A2662C490EDC002168B0 /* SunView.swift in Sources */,
-				F939A2752C4A9592002168B0 /* Enums.swift in Sources */,
+				F939A2752C4A9592002168B0 /* Clouds.swift in Sources */,
 				F939A26A2C494AB6002168B0 /* CloudsView.swift in Sources */,
 				F939A2682C492A53002168B0 /* SunWithCloudsView.swift in Sources */,
 				F939A2712C4A8DB6002168B0 /* PrecipitationView.swift in Sources */,
 				F939A2512C467495002168B0 /* AppDelegate.swift in Sources */,
 				F939A27F2C4BA7BD002168B0 /* SnowView.swift in Sources */,
 				F939A26E2C4A6007002168B0 /* CGRectUtils.swift in Sources */,
-				F939A2772C4AA156002168B0 /* ThunderView.swift in Sources */,
+				F939A2772C4AA156002168B0 /* StormView.swift in Sources */,
+				F939A2842C4BCB01002168B0 /* Precipitations.swift in Sources */,
 				F939A2532C467495002168B0 /* SceneDelegate.swift in Sources */,
 				F939A26C2C4A586A002168B0 /* CloudsWithPrecipitationView.swift in Sources */,
 			);

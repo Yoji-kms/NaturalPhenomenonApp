@@ -26,7 +26,7 @@ final class SnowView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .clear
+        self.backgroundColor = .snow
         self.setupViews()
     }
     

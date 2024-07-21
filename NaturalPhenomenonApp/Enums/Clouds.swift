@@ -12,8 +12,3 @@ enum Clouds {
     case greyAndWite
     case black
 }
-
-enum Precipitations {
-    case rain
-    case snow
-}

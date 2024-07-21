@@ -1,5 +1,5 @@
 //
-//  ThunderView.swift
+//  StormView.swift
 //  NaturalPhenomenonApp
 //
 //  Created by Yoji on 19.07.2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ThunderView: UIView {
+final class StormView: UIView {
     private lazy var cloudsWithPrecipitationView: CloudsWithPrecipitationView = {
         let view = CloudsWithPrecipitationView(
             frame: self.frame,
@@ -33,7 +33,7 @@ final class ThunderView: UIView {
 //    MARK: Lifecycle
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = .clear
+        self.backgroundColor = .storm
         self.setupViews()
     }
     
