@@ -29,6 +29,7 @@
 		F939A2882C4BD2E8002168B0 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2872C4BD2E8002168B0 /* BackgroundView.swift */; };
 		F939A28A2C4D7D0F002168B0 /* FogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2892C4D7D0F002168B0 /* FogView.swift */; };
 		F939A28C2C4E63A9002168B0 /* UIImageViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A28B2C4E63A9002168B0 /* UIImageViewUtils.swift */; };
+		F939A28E2C4E752E002168B0 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F939A28D2C4E752E002168B0 /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		F939A2872C4BD2E8002168B0 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F939A2892C4D7D0F002168B0 /* FogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogView.swift; sourceTree = "<group>"; };
 		F939A28B2C4E63A9002168B0 /* UIImageViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewUtils.swift; sourceTree = "<group>"; };
+		F939A28D2C4E752E002168B0 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				F939A2592C46749C002168B0 /* Assets.xcassets */,
 				F939A25E2C46749C002168B0 /* Info.plist */,
 				F939A27A2C4B9D44002168B0 /* Localizable.xcstrings */,
+				F939A28D2C4E752E002168B0 /* InfoPlist.xcstrings */,
 			);
 			path = NaturalPhenomenonApp;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F939A28E2C4E752E002168B0 /* InfoPlist.xcstrings in Resources */,
 				F939A27B2C4B9D44002168B0 /* Localizable.xcstrings in Resources */,
 				F939A25A2C46749C002168B0 /* Assets.xcassets in Resources */,
 			);
