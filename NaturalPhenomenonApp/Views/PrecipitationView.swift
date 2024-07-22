@@ -56,8 +56,10 @@ final class PrecipitationView: UIView {
             guard let self else { return }
             
             let duration = Double.random(in: 2...4)
+            let endRect = precipitationView.frame.moveToY(self.viewMaxY)
+            let options: UIView.AnimationOptions = [.repeat, .curveEaseIn]
             
-            precipitationView.animatePrecipitation(duration: duration, endY: self.viewMaxY)
+            precipitationView.animateMovement(duration: duration, endRect: endRect, options: options)
         }
     }
     
@@ -67,14 +69,5 @@ final class PrecipitationView: UIView {
             y: 0,
             width: self.precipitationWidth,
             height: self.precipitationWidth)
-    }
-}
-
-private extension UIImageView {
-    func animatePrecipitation(duration: TimeInterval, endY: Int) {
-        let endRect = self.frame.moveToY(endY)
-        UIView.animate(withDuration: duration, delay: 0, options: [.repeat, .curveEaseIn]) {
-            self.frame = endRect
-        }
     }
 }

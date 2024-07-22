@@ -49,9 +49,6 @@ class ViewController: UIViewController {
         return views
     }()
     
-    private lazy var sunView = WeatherTypes.sunny.view(frame: self.view.bounds)
-    private lazy var cloudView = WeatherTypes.cloudy.view(frame: self.view.bounds)
-    
     private let weatherTypes = WeatherTypes.allCases
     private lazy var currentWeatherTypeIndex = Int.random(in: 0..<weatherTypes.count)
     
@@ -69,7 +66,6 @@ class ViewController: UIViewController {
         self.weatherViews.forEach { weatherView in
             self.backgroundView.addSubview(weatherView)
         }
-        print(currentWeatherTypeIndex)
         self.weatherViews[currentWeatherTypeIndex].layer.opacity = 1
         self.view.addSubview(self.collectionView)
         

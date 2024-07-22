@@ -14,10 +14,6 @@ final class FogView: UIView {
 //    MARK: Variables
     private lazy var viewWidth = Int(self.frame.width)
     private lazy var viewHeight = Int(self.frame.height)
-//    private lazy var viewMidY = Int(self.frame.midY)
-//    private lazy var viewMaxX = Int(self.frame.maxX)
-//    private lazy var viewMidX = Int(self.frame.midX)
-//    private lazy var viewMaxY = Int(self.frame.maxY)
     
     private lazy var cloudWidth = viewWidth
     private lazy var cloudHeight = viewHeight / 3
@@ -45,18 +41,8 @@ final class FogView: UIView {
         let greyImage = UIImage(resource: .greyCloud)
         let cloudImages = [whiteImage, greyImage]
         
-//        self.clouds.append(contentsOf: [
-//            UIImageView(image: greyImage),
-//            UIImageView(image: whiteImage),
-//            UIImageView(image: greyImage),
-//            UIImageView(image: whiteImage),
-//            UIImageView(image: whiteImage)
-//        ])
-        
         let cloudsAtRow = 3
         let cloudsAtColumn = 5
-        
-        print("🟡 Frame size \(self.frame.size)")
         
         let horizontalSpacing: Int = Int(self.viewWidth) / (cloudsAtRow + 1)
         let verticalSpacing: Int = Int(self.viewHeight) / (cloudsAtColumn + 1)
@@ -89,7 +75,10 @@ final class FogView: UIView {
         self.clouds.forEach { cloud in
             let endRect = cloud.frame.moveToX(Int(cloud.frame.minX + 30))
             let duration = Double.random(in: 5...10)
-            cloud.animateCloud(duration: duration, endRect: endRect)
+            let options: UIView.AnimationOptions = [.repeat, .autoreverse]
+            
+            cloud.animateMovement(duration: duration, endRect: endRect)
+            cloud.animateOpacity(duration: duration, endOpacity: 0.6, options: options)
         }
     }
     
@@ -100,14 +89,5 @@ final class FogView: UIView {
             width: self.cloudWidth,
             height: self.cloudHeight
         )
-    }
-}
-
-private extension UIImageView {
-    func animateCloud(duration: TimeInterval, endRect: CGRect) {
-        UIView.animate(withDuration: duration, delay: 0, options: [.repeat, .autoreverse]) {
-            self.frame = endRect
-            self.layer.opacity = 0.6
-        }
     }
 }

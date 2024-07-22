@@ -79,12 +79,10 @@ final class LightningsView: UIView {
     }
     
     private func animateViews(){
-        lightnings.forEach { bigLightning in
+        lightnings.forEach { lightning in
             let duration = Double.random(in: 1...2)
             let delay = Double.random(in: 0...2)
-            UIView.animate(withDuration: duration, delay: delay, options: [.repeat, .curveEaseIn]) {
-                bigLightning.layer.opacity = 1
-            }
+            lightning.animateOpacity(duration: duration, delay: delay, endOpacity: 1)
         }
     }
 }

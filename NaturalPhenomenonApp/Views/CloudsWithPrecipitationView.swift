@@ -138,11 +138,11 @@ final class CloudsWithPrecipitationView: UIView {
         let fourthCloudEndRect = clouds[3].frame.moveToX(Int(clouds[3].frame.minX - 20))
         let fifthCloudEndRect = clouds[4].frame.moveToX(Int(clouds[4].frame.minX + 20))
         
-        clouds[0].animateCloud(duration: 10, endRect: firstCloudEndRect)
-        clouds[1].animateCloud(duration: 5, endRect: secondCloudEndRect)
-        clouds[2].animateCloud(duration: 10, endRect: thirdCloudEndRect)
-        clouds[3].animateCloud(duration: 7, endRect: fourthCloudEndRect)
-        clouds[4].animateCloud(duration: 8, endRect: fifthCloudEndRect)
+        clouds[0].animateMovement(duration: 10, endRect: firstCloudEndRect)
+        clouds[1].animateMovement(duration: 5, endRect: secondCloudEndRect)
+        clouds[2].animateMovement(duration: 10, endRect: thirdCloudEndRect)
+        clouds[3].animateMovement(duration: 7, endRect: fourthCloudEndRect)
+        clouds[4].animateMovement(duration: 8, endRect: fifthCloudEndRect)
     }
     
     private func cloudRect(x: Int, y: Int) -> CGRect {
@@ -152,13 +152,5 @@ final class CloudsWithPrecipitationView: UIView {
             width: self.cloudWidth,
             height: self.cloudHeight
         )
-    }
-}
-
-private extension UIImageView {
-    func animateCloud(duration: TimeInterval, endRect: CGRect) {
-        UIView.animate(withDuration: duration, delay: 0, options: [.repeat, .autoreverse]) {
-            self.frame = endRect
-        }
     }
 }

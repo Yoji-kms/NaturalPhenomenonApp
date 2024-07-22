@@ -60,21 +60,14 @@ final class CloudsView: UIView {
     }
     
     private func animateViews() {
-        let firstEndRect = firstCloud.frame.moveToX(viewMaxX + cloudWidth)
-        let secondEndRect = secondCloud.frame.moveToX(viewMaxX + cloudWidth)
+        let firstRowEndRect = firstCloud.frame.moveToX(viewMaxX + cloudWidth)
+        let secondRowEndRect = secondCloud.frame.moveToX(viewMaxX + cloudWidth)
+        let options: UIView.AnimationOptions = [.repeat, .curveLinear]
         
-        self.firstCloud.animateCloud(duration: 15, delay: 0, endRect: firstEndRect)
-        self.secondCloud.animateCloud(duration: 12, delay: 4, endRect: secondEndRect)
-        self.thirdCloud.animateCloud(duration: 12, delay: 8, endRect: firstEndRect)
-        self.fourthCloud.animateCloud(duration: 15, delay: 12, endRect: secondEndRect)
-    }
-}
-
-private extension UIImageView {
-    func animateCloud(duration: TimeInterval, delay: TimeInterval, endRect: CGRect) {
-        UIView.animate(withDuration: duration, delay: delay, options: [.repeat, .curveLinear]) {
-            self.frame = endRect
-        }
+        self.firstCloud.animateMovement(duration: 15, delay: 0,endRect: firstRowEndRect, options: options)
+        self.secondCloud.animateMovement(duration: 12, delay: 4,endRect: secondRowEndRect, options: options)
+        self.thirdCloud.animateMovement(duration: 12, delay: 8,endRect: firstRowEndRect, options: options)
+        self.fourthCloud.animateMovement(duration: 15, delay: 12,endRect: secondRowEndRect, options: options)
     }
 }
 

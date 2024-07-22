@@ -28,6 +28,7 @@
 		F939A2862C4BCB15002168B0 /* WeatherTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2852C4BCB15002168B0 /* WeatherTypes.swift */; };
 		F939A2882C4BD2E8002168B0 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2872C4BD2E8002168B0 /* BackgroundView.swift */; };
 		F939A28A2C4D7D0F002168B0 /* FogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A2892C4D7D0F002168B0 /* FogView.swift */; };
+		F939A28C2C4E63A9002168B0 /* UIImageViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939A28B2C4E63A9002168B0 /* UIImageViewUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		F939A2852C4BCB15002168B0 /* WeatherTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTypes.swift; sourceTree = "<group>"; };
 		F939A2872C4BD2E8002168B0 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F939A2892C4D7D0F002168B0 /* FogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogView.swift; sourceTree = "<group>"; };
+		F939A28B2C4E63A9002168B0 /* UIImageViewUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F939A26D2C4A6007002168B0 /* CGRectUtils.swift */,
+				F939A28B2C4E63A9002168B0 /* UIImageViewUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				F939A2882C4BD2E8002168B0 /* BackgroundView.swift in Sources */,
 				F939A2862C4BCB15002168B0 /* WeatherTypes.swift in Sources */,
+				F939A28C2C4E63A9002168B0 /* UIImageViewUtils.swift in Sources */,
 				F939A27D2C4BA4F4002168B0 /* RainView.swift in Sources */,
 				F939A2552C467495002168B0 /* ViewController.swift in Sources */,
 				F939A2792C4AA53F002168B0 /* LightningsView.swift in Sources */,
